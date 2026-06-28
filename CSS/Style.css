@@ -1,0 +1,59 @@
+.item{
+    position: relative;
+    cursor: pointer;
+}
+
+.itemCaption{
+    width: 90%;
+    margin: auto;
+    padding: 0px 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+
+}
+
+.lightBoxContainer{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lightBox{
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+#closeBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.body{
+    background-color: rgb(237, 237, 237);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .hide-md {
+        display: none;
+    }
+}
