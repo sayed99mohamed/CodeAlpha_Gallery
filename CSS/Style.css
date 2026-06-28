@@ -52,8 +52,36 @@ i{
 .body{
     background-color: rgb(237, 237, 237);
 }
-@media (min-width: 768px) and (max-width: 991px) {
+.lightBox {
+    width: 60%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1365px) {
+    .lightBox {
+        width: 70%;
+        height: 600px;
+    }
+}
+
+@media (max-width: 991px) {
+
     .hide-md {
         display: none;
+    }
+
+    .lightBox {
+        width: 80%;
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .lightBox {
+        width: 90%;
+        height: 400px;
     }
 }
